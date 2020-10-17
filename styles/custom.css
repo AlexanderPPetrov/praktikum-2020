@@ -11,3 +11,15 @@ body {
 .nav-icon {
     font-size: 2rem;
 }
+.product-icon {
+    font-size: 3rem;
+}
+.icon-container {
+    flex: 1;
+}
+.icon-container + .icon-container {
+    margin-left: 0.5rem;
+}
+.product-icon-container {
+    min-width: 65px;
+}
