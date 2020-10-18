@@ -31,7 +31,7 @@
 // }
 // function checkPersonForDog(person){
 //     let hasDog = false;
-//     if(person.pets.indexOf("dog") !== -1){
+//     if(person.pets.includes("dog")){
 //         hasDog = true;
 //     }
 //     return hasDog;
@@ -47,7 +47,6 @@
 // },3000);
 
 //  clearInterval(dogCheckInterval);
-
 
 
 
@@ -94,6 +93,7 @@ const testName = "Ivan";
 const testObject = {
     testName,
 }
+
 
 
 
