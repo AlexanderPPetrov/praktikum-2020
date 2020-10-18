@@ -19,3 +19,11 @@
 .product-icon-container {
     min-width: 65px;
 }
+
+.icon-container {
+    box-shadow: -1px 9px 10px -8px rgba(0,0,0,0.75);
+    span {
+        font-size: $font-size-md;
+        
+    }
+}
