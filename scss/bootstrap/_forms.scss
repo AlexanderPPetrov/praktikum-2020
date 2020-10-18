@@ -1,0 +1,8 @@
+//
+// Textual form controls
+//
+
+.form-control {
+    border: none;
+    border-bottom: input-border-width solid $input-border-color;
+}
