@@ -261,10 +261,10 @@ const rainyItems = weatherArray.filter(item => item.rain)
 
  4. От item-ите от (3.) да създадем нов масив, като всеки елемент в него има следната структура
 
-  {
+    {
         description: "стойност",
         icon: "стойност",
         id: "стойност",
-  }
+    }
 
 */
